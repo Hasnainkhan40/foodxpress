@@ -1,42 +1,54 @@
-# 🍔 FoodXpress – Flutter Food Delivery App
+<h1 align="center">🍔 FoodXpress</h1>
 
-A modern and responsive **Flutter** app UI for a food delivery platform.  
-Designed with clean UI, smooth animations, and modular code structure. 🚀
+<p align="center">
+  <b>A modern Flutter Food Delivery App UI 🚀</b> <br>
+  Clean design • Smooth animations • Cross-platform • Flutter ❤️
+</p>
+
+<p align="center">
+  <a href="https://flutter.dev/"><img src="https://img.shields.io/badge/Flutter-3.24-blue?logo=flutter&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Dart-3.5-blue?logo=dart&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Platform-Android_iOS_Web-success" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow" /></a>
+</p>
 
 ---
 
 ## 🌟 Features
 
-✅ Beautiful Home Screen with fade & slide animations  
-✅ Category-based food filtering  
-✅ Add to Cart functionality  
-✅ Orders screen with formatted order history  
-✅ Profile screen with logout  
-✅ Modern AppBar with smooth UI  
-✅ Responsive design for all devices  
-✅ Built using Flutter’s latest best practices  
+✨ Modern UI with smooth fade & slide animations  
+🛒 Add to Cart functionality  
+📦 Order history with formatted dates  
+👤 Profile screen with logout  
+🎨 Custom animated AppBar  
+📱 Fully responsive layout for all screens  
+⚡ Built with clean, maintainable Flutter code  
 
 ---
 
 ## 🖼️ Screenshots
 
-| Home Screen | Orders | Profile |
-|--------------|---------|----------|
+| 🏠 Home | 📦 Orders | 👤 Profile |
+|:--------:|:----------:|:----------:|
 | ![Home](assets/screenshots/home.png) | ![Orders](assets/screenshots/orders.png) | ![Profile](assets/screenshots/profile.png) |
 
-*(Add your actual screenshots inside `assets/screenshots/` folder.)*
+> *(Add screenshots inside `assets/screenshots/` folder)*
 
 ---
 
-## 🧱 Tech Stack
+## 🧱 Folder Structure
 
-- **Framework:** Flutter (Dart)
-- **State Management:** setState / Provider / BLoC *(based on your setup)*
-- **Backend:** Local JSON /  *(optional - Supabase / Firebase)*
-- **Animations:** Flutter AnimationController & Tween
-- **IDE:** VS Code / Android Studio
-
----
-
-## 🏗️ Folder Structure
-
+```plaintext
+lib/
+├── main.dart
+├── screens/
+│   ├── home_screen.dart
+│   ├── orders_screen.dart
+│   ├── profile_screen.dart
+├── widgets/
+│   ├── food_card.dart
+│   └── custom_appbar.dart
+├── models/
+│   └── food_model.dart
+└── utils/
+    └── constants.dart
