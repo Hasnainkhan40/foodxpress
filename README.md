@@ -1,16 +1,42 @@
-# foodxpress
+# 🍔 FoodXpress – Flutter Food Delivery App
 
-A new Flutter project.
+A modern and responsive **Flutter** app UI for a food delivery platform.  
+Designed with clean UI, smooth animations, and modular code structure. 🚀
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🌟 Features
 
-A few resources to get you started if this is your first Flutter project:
+✅ Beautiful Home Screen with fade & slide animations  
+✅ Category-based food filtering  
+✅ Add to Cart functionality  
+✅ Orders screen with formatted order history  
+✅ Profile screen with logout  
+✅ Modern AppBar with smooth UI  
+✅ Responsive design for all devices  
+✅ Built using Flutter’s latest best practices  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🖼️ Screenshots
+
+| Home Screen | Orders | Profile |
+|--------------|---------|----------|
+| ![Home](assets/screenshots/home.png) | ![Orders](assets/screenshots/orders.png) | ![Profile](assets/screenshots/profile.png) |
+
+*(Add your actual screenshots inside `assets/screenshots/` folder.)*
+
+---
+
+## 🧱 Tech Stack
+
+- **Framework:** Flutter (Dart)
+- **State Management:** setState / Provider / BLoC *(based on your setup)*
+- **Backend:** Local JSON /  *(optional - Supabase / Firebase)*
+- **Animations:** Flutter AnimationController & Tween
+- **IDE:** VS Code / Android Studio
+
+---
+
+## 🏗️ Folder Structure
+
