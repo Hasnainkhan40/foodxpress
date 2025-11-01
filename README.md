@@ -32,7 +32,7 @@
 |:--------:|:----------:|:----------:|:----------:|
 | ![Home](assets/screenshots/foodxpress4.jpg) | ![Orders](assets/screenshots/foodxpress3.jpg) | ![Profile](assets/screenshots/foodxpress2.jpg) |  ![Cart](assets/screenshots/foodxpress1.jpg) |
 
-> *(Add screenshots inside `assets/screenshots/` folder)*
+
 
 ---
 
